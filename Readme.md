@@ -96,32 +96,18 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background: linear-gradient(135deg, #ff6b6b, #5f27cd, #1dd1a1);
+  background: linear-gradient(#5f27cd, #1dd1a1);
   background-size: 300% 300%;
-  animation: bgMove 10s infinite;
   font-family: "Poppins", sans-serif;
-}
-
-@keyframes bgMove {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
 }
 
 .box {
   background: rgba(0, 0, 0, 0.6);
-  backdrop-filter: blur(12px);
   padding: 28px;
   width: 280px;
   border-radius: 18px;
   text-align: center;
   box-shadow: 0 0 18px rgba(255,255,255,0.25);
-  animation: fadeIn 0.6s ease-in-out;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: scale(0.9); }
-  to { opacity: 1; transform: scale(1); }
 }
 
 h2 {
@@ -170,7 +156,7 @@ button:hover {
 }
 
 .reset-btn {
-  background: linear-gradient(45deg, #ff9f43, #ff3838);
+  background: linear-gradient( #ff9f43, #ff3838);
 }
 
 .reset-btn:hover {
@@ -183,8 +169,8 @@ p {
   font-weight: bold;
   font-size: 18px;
   color: #00eaff;
-  text-shadow: 0 0 8px rgba(0,255,255,0.7);
 }
+
 
 ```
 
